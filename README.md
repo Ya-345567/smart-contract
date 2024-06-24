@@ -18,5 +18,4 @@ contract YashToken {
         require(tokenHoldings[holder] >= amount, "Insufficient token balance");
         totalTokens -= amount;
         tokenHoldings[holder] -= amount;
-    }
-}
+    }}
